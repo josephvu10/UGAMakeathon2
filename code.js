@@ -6,11 +6,11 @@ function setup() {
 
 //Loops continously for background effects and animations. (p5.js)
 function draw() {
-  if (trivia.state == "welcome") background("yellow");
+  if (trivia.state == "welcome") ;
   else if (trivia.state == "question") background("lightblue");
   else if (trivia.state == "correct") background("green");
   else if (trivia.state == "incorrect") background("red");
-  else if (trivia.state == "thankyou") background("orange");
+  else if (trivia.state == "thankyou") background("yellow");
 }
 
 function displayWelcome() {
@@ -38,7 +38,7 @@ function onClickedAnswer(isCorrect) {
   else $("#feedback").html(`Better luck next time.`).show();
   $("#correctAnswer").addClass("highlight"); //highlight right answer
   setTimeout(trivia.gotoNextQuestion, 3000); //wait 3 secs...next question
-} 
+}
 
 function onClickedStart() {
   displayQuestion();

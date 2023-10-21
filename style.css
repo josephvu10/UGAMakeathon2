@@ -2,6 +2,21 @@ body {
   margin: 0;
   background-color: #add8e6; /* Light blue background */
   font-family: 'Roboto', sans-serif; /* Use Roboto font and fallback to sans-serif if needed */
+  animation: backgroundColorChange 5s infinite;
+}
+
+@keyframes backgroundColorChange {
+  0% {background-color: #3c4bd1;}
+  10% {background-color: #2a4d94;}
+  20% {background-color: #294d9b;}
+  30% {background-color: #326ece;}
+  40% {background-color: #2254bf;}
+  50% {background-color: #0928c3;}
+  60% {background-color: #7233e7;}
+  70% {background-color: #6c62d1;}
+  80% {background-color: #5e6fef;}
+  90% {background-color: #3a65c9;}
+  100% {background-color: #3148cb;}
 }
 
 .screen {

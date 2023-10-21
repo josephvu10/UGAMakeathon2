@@ -31,6 +31,12 @@ button {
   margin: 10px auto;
   min-height: 70px;
   width: 100%;
+  transition: color 0.25s;
+}
+
+button:hover {
+  color: #71a9bd;
+  background-color: rgb(200, 214, 226);
 }
 
 canvas {

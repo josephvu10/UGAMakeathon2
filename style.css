@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #welcome-screen {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #question-screen {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  #thankyou-screen {
+    background-color: #f44336;
+    color: white;
+  }
+  

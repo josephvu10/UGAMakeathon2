@@ -39,7 +39,7 @@ function displayThankyou() {
 function onClickedAnswer(isCorrect) {
   if (isCorrect) {
     $("#feedback").html(`Way to go!`).show();
-    gamesWon++; // Increment gamesWon variable when the answer is correct
+    waterDonated++; // Increment gamesWon variable when the answer is correct
   } else {
     $("#feedback").html(`Better luck next time.`).show();
   }

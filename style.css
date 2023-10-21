@@ -62,4 +62,25 @@ canvas {
   z-index: -1;
 }
 
+a.help-btn {
+  background-color: rgba(255, 255, 255, .7);
+  border: none;
+  outline: none;
+  border-radius: 19px;
+  box-shadow: 3px 3px 7px black;
+  font-size: 24px;
+  display: block;
+  margin: 10px auto;
+  min-height: 70px;
+  width: 100%;
+  transition: color 0.25s;
+  text-align:center;
+  align-items: center;
+}
+
+a.help-btn:hover {
+  background-color: rgba(0, 123, 255, 0.8);
+}
+
+
   

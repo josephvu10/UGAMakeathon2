@@ -43,3 +43,9 @@ function onClickedAnswer(isCorrect) {
 function onClickedStart() {
   displayQuestion();
 }
+
+function displayHelp() {
+  $(".screen").hide();
+  $("#help-screen").show();
+}
+

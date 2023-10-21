@@ -1,6 +1,6 @@
 //Runs once at the beginning
 function setup() {
-  var googleSheetLink = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRYCi4KENeZMlf9JbV8BhVrdOHse2250INSiRo7gEYWUYp3V0jiWFKWcnm1jzx5q1BMsmd9fOopk2Z_/pub?output=csv";
+  var googleSheetLink = "Water.csv";
   trivia.loadGoogleSheet(googleSheetLink).then(displayWelcome); 
 }
 

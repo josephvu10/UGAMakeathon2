@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #add8e6; /* Light blue background */
+  font-family: 'Roboto', sans-serif; /* Use Roboto font and fallback to sans-serif if needed */
 }
 
 .screen {

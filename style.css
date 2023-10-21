@@ -76,6 +76,7 @@ a.help-btn {
   transition: color 0.25s;
   text-align:center;
   align-items: center;
+  line-height: 70px; /* Center the text vertically */
 }
 
 a.help-btn:hover {

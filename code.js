@@ -38,7 +38,7 @@ function onClickedAnswer(isCorrect) {
   else $("#feedback").html(`Better luck next time.`).show();
   $("#correctAnswer").addClass("highlight"); //highlight right answer
   setTimeout(trivia.gotoNextQuestion, 3000); //wait 3 secs...next question
-}
+} 
 
 function onClickedStart() {
   displayQuestion();

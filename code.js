@@ -1,3 +1,4 @@
+var waterDonated = 0;
 //Runs once at the beginning
 function setup() {
   var googleSheetLink = "Water.csv";
@@ -16,6 +17,7 @@ function draw() {
 function displayWelcome() {
   $(".screen").hide();
   $("#welcome-screen").show();
+  $("#water-donated").text(`Liters of Water Donated: ${waterDonated}`); // Display number of liters of water donated
 }
 
 function displayQuestion() {
@@ -31,14 +33,20 @@ function displayThankyou() {
   $(".screen").hide();
   $("#thankyou-screen").show();
   $("#game-results").html(`You got ${trivia.totalCorrect} of ${trivia.totalAnswered} correct.`);
+  $("#water-donated").text(`Liters of Water Donated: ${waterDonated}`); // Display number of liters of water donated
 }
 
 function onClickedAnswer(isCorrect) {
-  if (isCorrect) $("#feedback").html(`Way to go!`).show();
-  else $("#feedback").html(`Better luck next time.`).show();
-  $("#correctAnswer").addClass("highlight"); //highlight right answer
-  setTimeout(trivia.gotoNextQuestion, 3000); //wait 3 secs...next question
+  if (isCorrect) {
+    $("#feedback").html(`Way to go!`).show();
+    gamesWon++; // Increment gamesWon variable when the answer is correct
+  } else {
+    $("#feedback").html(`Better luck next time.`).show();
+  }
+  $("#correctAnswer").addClass("highlight"); // Highlight right answer
+  setTimeout(trivia.gotoNextQuestion, 3000); // Wait 3 secs...next question
 }
+
 
 function onClickedStart() {
   displayQuestion();

@@ -1,12 +1,12 @@
 id,category,question,correctAnswer,incorrectAnswer1,incorrectAnswer2,incorrectAnswer3
-0,Water,What percentage of the Earth's surface is covered by water?,70%,50%,90%,30%
-1,Water,"What percentage of the world's population lacks access to basic sanitation services, such as toilets or latrines?",50%,10%,25%,75%
-2,Water Conservation,What can be done to prevent water pollution in local water bodies?,Properly dispose of household chemicals and participate in local clean-up efforts,Pour chemicals down the drain,Litter freely around water bodies,Ignore pollution as it's inevitable
-3,Water Pollution,How much of the world's waste water is flown back into the enviroment without being treated or reused?,80%,30%,67%,50%
-4,Water Pollution,What is Oxygen-depletion pollution?,A decrease in the concentration of dissolved oxygen in a waterbody downstream from a point source of pollutants,Beneficial for water ecosystems,Result of increased oxygen production,Natural occurrence in all water bodies
-5,Water Pollution,Which is not an example of water pollution?,Wastewater Treatment,Marine Dumping,Oil Leaks and Spills,Radioactive Waste
-6,Water,What percent of the earth's water is avaliable for drinking water?,1%,15%,30%,7%
-7,Water,What are the 3 R's?,"Reduce, Recycle, Reuse","Reduce, Replenish, Recreate","Ruin, Reuse, Recover","Recreate, Recycle, Reduce"
-8,Water Conservation,Which of the following activities saves more water in the long run?,Installing a low-flow toilet,Taking shorter showers,Using a dishwasher,Watering the garden with a hose
-9,Water Conservation,What is xeriscaping?,A landscaping method that reduces or eliminates the need for supplemental water from irrigation,A type of water sport,A water conservation organization,A water filtration system
-10,Water Convervation,What is the term for the process of treating wastewater and returning it to the environment in a way that does not harm the ecosystem?,Water reclamation,Water purification,Water desalination,Water recycling
+0,Ocean Conservation,What is the largest threat to marine life in our oceans?,Plastic pollution,Overfishing,Climate change,Acidification
+1,Ocean Conservation,Which marine species is often affected by plastic pollution?,Sea Turtles,Sharks,Dolphins,Seals
+2,Ocean Conservation,What is a marine protected area (MPA)?,A designated ocean area where human activity is regulated to conserve marine life,A type of fishing vessel,A specialized marine research facility,A large-scale underwater aquarium
+3,Ocean Conservation,What is coral bleaching?,A phenomenon where coral reefs lose their color due to stress,A method to increase coral growth,A natural color change in coral reefs,A type of coral disease
+4,Ocean Conservation,Which of the following actions can help protect marine biodiversity?,Creating marine reserves and protected areas,Increasing plastic production,Encouraging overfishing,Discharging untreated sewage into oceans
+5,Ocean Conservation,What percentage of the Earth's oxygen is produced by oceans?,Approximately 50%,Approximately 75%,Approximately 25%,Approximately 10%
+6,Ocean Conservation,Which chemical pollutant is harmful to marine life and often found in ocean debris?,Mercury,Pesticides,Carbon dioxide,Sulfur dioxide
+7,Ocean Conservation,What is ghost fishing?,When lost or abandoned fishing gear continues to catch and kill marine life,A type of recreational fishing,A method of sustainable fishing,A technique used in marine research
+8,Ocean Conservation,What is bycatch in fishing?,The unintentional capture of non-target species,A type of fishing net,The process of catching targeted fish,The act of releasing caught fish back into the ocean
+9,Ocean Conservation,What is the Great Pacific Garbage Patch?,A large area in the Pacific Ocean with high concentrations of plastic debris,A protected marine sanctuary,A popular scuba diving spot,A region with abundant marine biodiversity
+10,Ocean Conservation,What is ocean acidification?,The increase in the acidity of seawater due to the absorption of carbon dioxide by oceans,A natural process that balances ocean pH,A method to enhance coral growth,A type of marine pollution

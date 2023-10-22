@@ -40,15 +40,17 @@ function displayThankyou() {
 
 function onClickedAnswer(isCorrect) {
   if (isCorrect) {
+    console.log("Correct answer!");
     $("#feedback").html(`Way to go!`).show();
     waterDonated++; // Increment gamesWon variable when the answer is correct
+    console.log("Water Donated:", waterDonated); // Log the updated value
   } else {
+    console.log("Incorrect answer.");
     $("#feedback").html(`Better luck next time.`).show();
   }
   $("#correctAnswer").addClass("highlight"); // Highlight right answer
-  setTimeout(trivia.gotoNextQuestion, 3000); // Wait 3 secs...next question
+  setTimeout(trivia.gotoNextQuestion, 1000); // Wait 1 secs...next question
 }
-
 
 function onClickedStart() {
   displayQuestion();

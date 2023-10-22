@@ -1,4 +1,6 @@
+
 var waterDonated = 0;
+
 //Runs once at the beginning
 function setup() {
   var googleSheetLink = "Water.csv";
@@ -7,7 +9,7 @@ function setup() {
 
 //Loops continously for background effects and animations. (p5.js)
 function draw() {
-  if (trivia.state == "welcome") ;
+  if (trivia.state == "welcome");
   else if (trivia.state == "question") background("lightblue");
   else if (trivia.state == "correct") background("green");
   else if (trivia.state == "incorrect") background("red");

@@ -82,3 +82,11 @@ a.help-btn {
 a.help-btn:hover {
   background-color: rgba(0, 123, 255, 0.8);
 }
+
+#water-donated {
+  font-size: 18px;
+  color: #333; /* Dark gray text color */
+  text-align: center;
+  align-items: center;
+}
+

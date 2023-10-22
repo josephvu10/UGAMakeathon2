@@ -20,6 +20,9 @@ function displayWelcome() {
   $(".screen").hide();
   $("#welcome-screen").show();
   $("#water-donated").text(`Liters of Water Donated: ${waterDonated}`); // Display number of liters of water donated
+  $(".start-btn").click(function() {
+    onClickedStart();
+  });
 }
 
 function displayQuestion() {

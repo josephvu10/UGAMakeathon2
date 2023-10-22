@@ -1,5 +1,4 @@
-
-var waterDonated = 0;
+var waterDonated=0;
 
 //Runs once at the beginning
 function setup() {
